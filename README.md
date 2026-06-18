@@ -194,7 +194,7 @@ table can't answer it, it falls back to normal RAG.
 ---
 
 ## Evaluation approach
-Done using Cursor(AI)
+
 This is meant to be evaluated on *behavior*, not BLEU scores. Suggested checks:
 
 - **Grounding / no-hallucination:** ask a question the documents *don't* answer
@@ -288,4 +288,9 @@ Reasons for selection:
 While larger models may provide stronger reasoning capabilities, they require significantly more compute resources and increase response latency.
 
 For this assessment, retrieval quality, grounding, and reliable failure behavior were prioritized over maximizing model size. Gemma 4 provided a practical balance between answer quality, speed, and ease of deployment.
+
+
+## Demo Video
+
+[Watch Demo Video](https://drive.google.com/file/d/1Es-FOYRkR-AdPUl5hAWf7Bf2XHlaQSIB/view?usp=sharing)
 ```
