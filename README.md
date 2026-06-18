@@ -81,12 +81,11 @@ memory; after that it's quick.
                               answer + reference chunks
 ```
 
-```
-Used 
+
+Used
 **Folder layout**
 
 ```
-
 main.py            FastAPI app, mounts routes + static UI
 config.py          all tunables in one place
 routes/            ingest, chat (+ chat/reset), health endpoints
